@@ -59,6 +59,17 @@
         body{
             background-color: rgb(244, 244, 244);
         }
+
+        fieldset{
+            width: 50%;
+        }
+
+        .rights{
+            background-color: rgba(52, 73, 94);
+            padding: 10px;
+            color: white;
+        }
+    
     </style>
 
     <body>
@@ -176,11 +187,49 @@
                 <br><br>
                 
                 <label>Gender:</label>
+                <input type="radio">Male
+                <input type="radio">Female
+
+                <br><br>
+
+                <label>Skills</label>
+                <input type="checkbox">HTML
+                <input type="checkbox">CSS
+                <input type="checkbox">JavaScript
+
+                <br><br>
+
+                <label>Date of Birth:</label>
+                <input type="date">
+
+                <br><br>
+
+                <label>Country:</label>
+                <select name="select" id="country">
+                    <option value="select" selected>Select Country</option>
+                    <option value="SriLanks">Sri Lanka</option>
+                    <option value="India">India</option>
+                </select>
+
+                <br><br>
+
+                <label>Message:</label>
+                <textarea></textarea>
                 
+                <br><br>
+
+                <button>Submit</button>
+                <button>Reset</button>
 
             </form>
 
         </fieldset>
+
+        <form class="rights">
+            
+            <p>&copy; 2025 Student Portfoilio. All Rights Reserved</p>
+        
+        </form>
 
     </body>
 
